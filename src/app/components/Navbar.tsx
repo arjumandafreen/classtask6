@@ -40,7 +40,7 @@ function Navbar() {
           {isMenuOpen ? (
             <Image
               src="/images/done.png"
-              alt="done"
+              alt="close"
               height={60} // smaller size for the "done" image
               width={60} // smaller size for the "done" image
               className='absolute top-[0.5rem] right-[1rem]'
@@ -50,7 +50,7 @@ function Navbar() {
           ) : (
             <Image
               src="/images/white.png"
-              alt="burger"
+              alt="open"
               height={50} // smaller size for the burger icon
               width={50} // smaller size for the burger icon
               className="mr-4"
